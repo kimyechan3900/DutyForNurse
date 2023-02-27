@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="org.techtown.dutyfornurse">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/duty_helper_icon"
+        android:label="Duty Helper"
+        android:roundIcon="@mipmap/duty_helper_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DutyForNurse"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".RequireMent" />
+        <activity android:name=".DutyLayout"
+            android:launchMode="singleTop"/>
+        <activity android:name=".TutorialLayout"/>
+        <activity android:name=".DutyWaiting"
+            android:launchMode="singleTop"/>
+        <activity android:name=".JobApplication"
+            android:screenOrientation="landscape"
+            android:launchMode="singleTop"/>
+        <activity android:name=".Night_off"
+            android:launchMode="singleTop"/>
+        <activity android:name=".DutyList"
+            android:launchMode="singleTop"/>
+        <activity android:name=".DutyLayout_List"
+            android:launchMode="singleTop"/>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider" />
+        </provider>
+    </application>
+
+
+</manifest>
+
