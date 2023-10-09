@@ -36,8 +36,6 @@
         <activity android:name=".JobApplication"
             android:screenOrientation="landscape"
             android:launchMode="singleTop"/>
-        <activity android:name=".Night_off"
-            android:launchMode="singleTop"/>
         <activity android:name=".DutyList"
             android:launchMode="singleTop"/>
         <activity android:name=".DutyLayout_List"

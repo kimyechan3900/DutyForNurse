@@ -3,14 +3,14 @@ plugins {
 }
 
 android {
-    compileSdk 32
+    compileSdk 33
 
     defaultConfig {
         applicationId "org.techtown.dutyfornurse"
         minSdk 26// 최초 값=21,엑셀 파일때문에 26으로 수정함 (min api 26오류)
-        targetSdk 32
-        versionCode 5
-        versionName "1.1.2"
+        targetSdk 33
+        versionCode 9
+        versionName "1.1.7"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
