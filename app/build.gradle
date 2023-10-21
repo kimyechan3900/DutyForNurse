@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    compileSdk 33
+    compileSdk 33 // git
 
     defaultConfig {
         applicationId "org.techtown.dutyfornurse"
