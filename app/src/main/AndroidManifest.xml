@@ -18,7 +18,7 @@
         android:theme="@style/Theme.DutyForNurse"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Main.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,18 +27,18 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".RequireMent" />
-        <activity android:name=".DutyLayout"
+        <activity android:name=".CreateDuty.RequireMent" />
+        <activity android:name=".CreateDuty.DutyLayout"
             android:launchMode="singleTop"/>
-        <activity android:name=".TutorialLayout"/>
-        <activity android:name=".DutyWaiting"
+        <activity android:name=".Tutorial.TutorialLayout"/>
+        <activity android:name=".CreateDuty.DutyWaiting"
             android:launchMode="singleTop"/>
-        <activity android:name=".JobApplication"
+        <activity android:name=".CreateDuty.JobApplication"
             android:screenOrientation="landscape"
             android:launchMode="singleTop"/>
-        <activity android:name=".DutyList"
+        <activity android:name=".SaveDuty.DutyList"
             android:launchMode="singleTop"/>
-        <activity android:name=".DutyLayout_List"
+        <activity android:name=".SaveDuty.DutyLayout_Save"
             android:launchMode="singleTop"/>
         <provider
             android:name="androidx.core.content.FileProvider"
