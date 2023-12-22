@@ -1,7 +1,7 @@
 # 듀티헬퍼 [![Blog Badge](https://img.shields.io/badge/Blog-ff0000?style=flat-square&logo=naver&link=https://blog.naver.com/tioon74)](https://blog.naver.com/tioon74)
 ### 간호사의 복잡한 듀티표를 작성해주는 어플리케이션
 ##### :sparkles:
-<img src="https://github.com/tioon/DutyForNurse/files/graphic%20image.png" width="800">
+<img src="https://github.com/tioon/DutyForNurse/blob/master/files/graphic%20image.png" width="800">
 
 <br/>
 
