@@ -33,6 +33,6 @@
 
 <br/><br/>
 
-### 듀티 결과 예시 (엑셀):eyes:
-[듀티](https://github.com/tioon/DutyForNurse/blob/master/files/%EA%B0%84%ED%98%B8%EB%93%80%ED%8B%B0%ED%91%9C3.xls)
+### 듀티 결과 예시 (엑셀)
+[예시 듀티표](https://github.com/tioon/DutyForNurse/blob/master/files/%EA%B0%84%ED%98%B8%EB%93%80%ED%8B%B0%ED%91%9C3.xls)
 
